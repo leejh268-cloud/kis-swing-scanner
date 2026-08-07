@@ -13,7 +13,7 @@
   *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
   body{margin:0; background:var(--bg); color:var(--text);
     font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard",sans-serif;
-    padding-bottom:40px;}
+    padding-bottom:calc(90px + env(safe-area-inset-bottom));}
   header{position:sticky; top:0; z-index:10; background:rgba(11,14,20,0.92); backdrop-filter:blur(10px);
     padding:calc(env(safe-area-inset-top) + 14px) 16px 10px; border-bottom:1px solid var(--border);}
   h1{font-size:17px; margin:0 0 10px; font-weight:700;}
@@ -42,8 +42,10 @@
   .subrow{display:flex; justify-content:space-between; margin-top:10px; font-size:12px; color:var(--sub);}
   .subrow b{color:var(--text); font-weight:600;}
   .empty{text-align:center; color:var(--sub); padding:60px 20px; font-size:14px; line-height:1.7;}
-  .refresh{position:fixed; bottom:20px; right:20px; background:var(--accent); color:#fff; border:none;
-    width:48px; height:48px; border-radius:24px; font-size:18px; box-shadow:0 4px 14px rgba(79,140,255,0.4);}
+  .refresh{position:fixed; bottom:calc(24px + env(safe-area-inset-bottom)); right:20px; background:var(--accent); color:#fff; border:none;
+    width:52px; height:52px; border-radius:26px; font-size:20px; box-shadow:0 4px 14px rgba(79,140,255,0.4); z-index:50;
+    display:flex; align-items:center; justify-content:center; -webkit-user-select:none; user-select:none;}
+  .refresh:active{opacity:0.7;}
 </style>
 </head>
 <body>

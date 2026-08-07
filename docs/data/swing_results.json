@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-07T16:06:25.089678",
+  "generated_at": null,
   "scanned_count": 0,
   "universe_count": 0,
   "signal_count": 0,
   "results": [],
-  "disclaimer": "본 결과는 기술적 지표 기반 알고리즘 산출값이며 투자 조언이 아닙니다. 투자 판단과 책임은 본인에게 있습니다."
+  "disclaimer": "아직 스캔이 실행되지 않았습니다. GitHub Actions를 실행하면 이 파일이 자동으로 채워집니다."
 }
