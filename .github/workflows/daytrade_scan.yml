@@ -1,0 +1,39 @@
+name: Daytrade Scan
+
+on:
+  schedule:
+    # 장중 09:35 / 11:30 / 14:00 KST (= 00:35 / 02:30 / 05:00 UTC) 평일 실행
+    - cron: "35 0 * * 1-5"
+    - cron: "30 2 * * 1-5"
+    - cron: "0 5 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run daytrade scan
+        env:
+          KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
+          KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
+        run: python -m scanner.run_daytrade
+
+      - name: Commit updated results
+        run: |
+          git config user.name "daytrade-scan-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data/daytrade_results.json
+          git diff --cached --quiet || git commit -m "chore: update daytrade scan results [skip ci]"
+          git push
