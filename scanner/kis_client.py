@@ -69,15 +69,34 @@ class KisClient:
             pass
         return None
 
-    def _issue_token(self):
+    def _issue_token(self, retries: int = 3):
+        """
+        한투는 같은 앱키로 너무 짧은 간격에 토큰을 재발급하면 일시적으로
+        403을 반환하는 경우가 있습니다 (공식 안내: 재발급은 분당 제한 있음).
+        로컬 테스트 직후 바로 GitHub Actions를 돌리는 등 서로 다른 환경에서
+        같은 앱키로 연달아 토큰을 발급받을 때 특히 발생하기 쉬워, 지수 백오프로
+        재시도합니다.
+        """
         url = f"{BASE_URL}/oauth2/tokenP"
         body = {
             "grant_type": "client_credentials",
             "appkey": self.app_key,
             "appsecret": self.app_secret,
         }
-        res = self.session.post(url, json=body, timeout=10)
-        res.raise_for_status()
+        last_err = None
+        for attempt in range(retries):
+            res = self.session.post(url, json=body, timeout=10)
+            if res.status_code == 200:
+                break
+            if res.status_code in (403, 429) and attempt < retries - 1:
+                wait = 15 * (attempt + 1)  # 15초, 30초 ...
+                print(f"[토큰발급] {res.status_code} 응답, {wait}초 후 재시도 ({attempt + 1}/{retries})")
+                time.sleep(wait)
+                last_err = res
+                continue
+            res.raise_for_status()
+        else:
+            last_err.raise_for_status()
         data = res.json()
         self.access_token = data["access_token"]
         expires_in = int(data.get("expires_in", 86400))
