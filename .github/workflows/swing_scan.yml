@@ -1,10 +1,10 @@
 name: Swing Scan
 
 on:
-  schedule:
-    # 매일 15:45 KST (= 06:45 UTC) 평일 실행. 필요시 시간 조정하세요.
-    - cron: "45 6 * * 1-5"
-  workflow_dispatch: {}  # 수동 실행 버튼
+  # ⚠️ 자동 스케줄(cron)은 비활성화했습니다. 한투 API가 GitHub Actions의 서버 IP를
+  # 차단하는 것으로 확인되어(403 Forbidden), 이 워크플로는 현재 사용하지 않습니다.
+  # 대신 로컬 PC + Windows 작업 스케줄러(auto_scan_and_push.bat)로 대체했습니다.
+  workflow_dispatch: {}  # 수동 실행 버튼 (디버깅용으로만 남겨둠)
 
 permissions:
   contents: write

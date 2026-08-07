@@ -1,12 +1,10 @@
 name: Daytrade Scan
 
 on:
-  schedule:
-    # 장중 09:35 / 11:30 / 14:00 KST (= 00:35 / 02:30 / 05:00 UTC) 평일 실행
-    - cron: "35 0 * * 1-5"
-    - cron: "30 2 * * 1-5"
-    - cron: "0 5 * * 1-5"
-  workflow_dispatch: {}
+  # ⚠️ 자동 스케줄(cron)은 비활성화했습니다. 한투 API가 GitHub Actions의 서버 IP를
+  # 차단하는 것으로 확인되어(403 Forbidden), 이 워크플로는 현재 사용하지 않습니다.
+  # 대신 로컬 PC + Windows 작업 스케줄러로 대체했습니다.
+  workflow_dispatch: {}  # 수동 실행 버튼 (디버깅용으로만 남겨둠)
 
 permissions:
   contents: write
