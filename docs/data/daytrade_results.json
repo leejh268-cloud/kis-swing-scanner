@@ -1,5 +1,186 @@
 {
-  "generated_at": null,
-  "candidates": [],
-  "disclaimer": "ì•„ì§ ìŠ¤ìº”ì´ ì‹¤í–‰ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤. GitHub Actionsë¥¼ ì‹¤í–‰í•˜ë©´ ì´ íŒŒì¼ì´ ìë™ìœ¼ë¡œ ì±„ì›Œì§‘ë‹ˆë‹¤."
+  "generated_at": "2026-08-07T15:55:19.301149",
+  "candidates": [
+    {
+      "code": "252670",
+      "name": "KODEX 200¼±¹°ÀÎ¹ö½º2X",
+      "score": 79,
+      "current_price": 97,
+      "entry_price_range": [
+        97,
+        97
+      ],
+      "target_price": 100,
+      "stop_loss_price": 95,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 1.04,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+    },
+    {
+      "code": "462330",
+      "name": "KODEX 2Â÷ÀüÁö»ê¾÷·¹¹ö¸®Áö",
+      "score": 75,
+      "current_price": 965,
+      "entry_price_range": [
+        960,
+        970
+      ],
+      "target_price": 999,
+      "stop_loss_price": 941,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 10.92,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+    },
+    {
+      "code": "069540",
+      "name": "ºû°úÀüÀÚ",
+      "score": 73,
+      "current_price": 3005,
+      "entry_price_range": [
+        2990,
+        3020
+      ],
+      "target_price": 3110,
+      "stop_loss_price": 2930,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 3.26,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+    },
+    {
+      "code": "017900",
+      "name": "±¤ÀüÀÚ",
+      "score": 66,
+      "current_price": 7810,
+      "entry_price_range": [
+        7770,
+        7850
+      ],
+      "target_price": 8080,
+      "stop_loss_price": 7610,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 15.02,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+    },
+    {
+      "code": "009830",
+      "name": "ÇÑÈ­¼Ö·ç¼Ç",
+      "score": 63,
+      "current_price": 33900,
+      "entry_price_range": [
+        33750,
+        34050
+      ],
+      "target_price": 35100,
+      "stop_loss_price": 33050,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 11.51,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+    },
+    {
+      "code": "0197X0",
+      "name": "SOL SKÇÏÀÌ´Ğ½º¼±¹°´ÜÀÏÁ¾¸ñÀÎ¹ö½º2X",
+      "score": 62,
+      "current_price": 11020,
+      "entry_price_range": [
+        10960,
+        11080
+      ],
+      "target_price": 11410,
+      "stop_loss_price": 10740,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 10.14,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+    },
+    {
+      "code": "010170",
+      "name": "´ëÇÑ±¤Åë½Å",
+      "score": 61,
+      "current_price": 11460,
+      "entry_price_range": [
+        11400,
+        11520
+      ],
+      "target_price": 11860,
+      "stop_loss_price": 11170,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 3.52,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+    },
+    {
+      "code": "131400",
+      "name": "ÀÌºêÀÌÃ·´Ü¼ÒÀç",
+      "score": 60,
+      "current_price": 718,
+      "entry_price_range": [
+        714,
+        722
+      ],
+      "target_price": 743,
+      "stop_loss_price": 700,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 6.69,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+    },
+    {
+      "code": "084650",
+      "name": "·¦Áö³ë¹Í½º",
+      "score": 60,
+      "current_price": 882,
+      "entry_price_range": [
+        878,
+        886
+      ],
+      "target_price": 913,
+      "stop_loss_price": 860,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 12.5,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+    },
+    {
+      "code": "264850",
+      "name": "ÀÌ·£½Ã½º",
+      "score": 60,
+      "current_price": 6550,
+      "entry_price_range": [
+        6520,
+        6580
+      ],
+      "target_price": 6780,
+      "stop_loss_price": 6390,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 4.47,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+    }
+  ],
+  "disclaimer": "º» °á°ú´Â ´çÀÏ °Å·¡·®/¼ö±Ş µ¥ÀÌÅÍ ±â¹İ ¾Ë°í¸®Áò »êÃâ°ªÀÌ¸ç ÅõÀÚ Á¶¾ğÀÌ ¾Æ´Õ´Ï´Ù. ´ÜÅ¸ ¸Å¸Å´Â º¯µ¿¼ºÀÌ ¸Å¿ì Å©¹Ç·Î ¹İµå½Ã ¼ÕÀı ±âÁØÀ» ÁöÅ°¼¼¿ä."
 }
