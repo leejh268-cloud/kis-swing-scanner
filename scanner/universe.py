@@ -23,9 +23,6 @@ MASTER_DIR.mkdir(parents=True, exist_ok=True)
 _KOSPI_URL = "https://new.real.download.dws.co.kr/common/master/kospi_code.mst.zip"
 _KOSDAQ_URL = "https://new.real.download.dws.co.kr/common/master/kosdaq_code.mst.zip"
 
-_KOSPI_TAIL_WIDTH = 228
-_KOSDAQ_TAIL_WIDTH = 222
-
 _FIELD_SPECS = [
     2, 1, 4, 4, 4,
     1, 1, 1, 1, 1,
@@ -42,6 +39,11 @@ _FIELD_SPECS = [
     9, 9, 5, 9, 8,
     9, 3, 1, 1, 1,
 ]
+
+# ⚠️ tail width는 반드시 _FIELD_SPECS 합계와 일치해야 합니다 (하드코딩하면 1글자만
+# 틀려도 뒤 필드가 전부 밀립니다). 실제로 이 오류가 있었어서 합계로 자동 계산하도록 수정.
+_KOSPI_TAIL_WIDTH = sum(_FIELD_SPECS)
+_KOSDAQ_TAIL_WIDTH = sum(_FIELD_SPECS)  # ⚠️ 코스닥은 실제 필드 구성이 다를 수 있어 검증 필요
 
 _TAIL_COLUMNS = [
     "그룹코드", "시가총액규모", "지수업종대분류", "지수업종중분류", "지수업종소분류",
