@@ -2,9 +2,9 @@
 스윙매매 스캔 로직
 
 조건 (교집합 방식):
-1. 추세: 정배열 조짐 (종가 > MA20 > MA60) + ADX14 >= 20 (횡보장 필터링)
-2. 모멘텀: MACD 골든크로스 (최근 3봉 이내) + RSI14가 40~65 구간 (과매수 아님, 반등 초입)
-3. 거래량: 당일 거래량이 최근 20일 평균의 1.5배 이상 + OBV가 OBV 20일선 위
+1. 추세: 정배열 조짐 (종가 > MA20 > MA60) + ADX14 >= 15 (횡보장 필터링, 기존 20에서 완화)
+2. 모멘텀: MACD 골든크로스 (최근 3봉 이내) + RSI14가 35~70 구간 (기존 40~65에서 확대)
+3. 거래량: 당일 거래량이 최근 20일 평균의 1.3배 이상 (기존 1.5배에서 완화) + OBV가 OBV 20일선 위
 
 가격 산출:
 - 진입가: 최근 종가 (지정가 매수 시 참고용)
@@ -55,19 +55,19 @@ def evaluate_swing_signal(df_with_ind: pd.DataFrame, code: str, name: str, marke
     close = float(last["close"])
 
     # --- 조건 1: 추세 ---
-    trend_ok = close > last["ma20"] > last["ma60"] and last["adx14"] >= 20
-    trend_strength = min(100, max(0, (last["adx14"] - 20) * 3))  # 0~100 스케일 근사
+    trend_ok = close > last["ma20"] > last["ma60"] and last["adx14"] >= 15
+    trend_strength = min(100, max(0, (last["adx14"] - 15) * 3))  # 0~100 스케일 근사
 
     # --- 조건 2: 모멘텀 (최근 3봉 내 MACD 골든크로스) ---
     recent = df_with_ind.iloc[-4:]
     macd_cross_recent = (
         (recent["macd"] > recent["macd_signal"]).astype(int).diff().fillna(0) == 1
     ).any()
-    rsi_ok = 40 <= last["rsi14"] <= 65
+    rsi_ok = 35 <= last["rsi14"] <= 70
     momentum_ok = macd_cross_recent and rsi_ok
 
     # --- 조건 3: 거래량 ---
-    volume_ok = last["vol_ratio20"] >= 1.5 and last["obv"] >= last.get("obv_ma20", float("inf"))
+    volume_ok = last["vol_ratio20"] >= 1.3 and last["obv"] >= last.get("obv_ma20", float("inf"))
 
     if not (trend_ok and momentum_ok and volume_ok):
         return None
