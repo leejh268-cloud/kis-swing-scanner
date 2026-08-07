@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-08-07T15:55:29.407855",
+  "generated_at": "2026-08-07T16:06:28.672790",
   "candidates": [
     {
       "code": "252670",
-      "name": "KODEX 200¼±¹°ÀÎ¹ö½º2X",
+      "name": "KODEX 200ì„ ë¬¼ì¸ë²„ìŠ¤2X",
       "score": 79,
       "current_price": 97,
       "entry_price_range": [
@@ -17,11 +17,11 @@
       "change_rate_pct": 1.04,
       "in_volume_rank": true,
       "in_investor_rank": false,
-      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+      "expected_timing": "ë‹¹ì¼ ì¥ì¤‘ (ìµì¼ ì˜¤ì „ê¹Œì§€)"
     },
     {
       "code": "462330",
-      "name": "KODEX 2Â÷ÀüÁö»ê¾÷·¹¹ö¸®Áö",
+      "name": "KODEX 2ì°¨ì „ì§€ì‚°ì—…ë ˆë²„ë¦¬ì§€",
       "score": 75,
       "current_price": 965,
       "entry_price_range": [
@@ -35,11 +35,11 @@
       "change_rate_pct": 10.92,
       "in_volume_rank": true,
       "in_investor_rank": false,
-      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+      "expected_timing": "ë‹¹ì¼ ì¥ì¤‘ (ìµì¼ ì˜¤ì „ê¹Œì§€)"
     },
     {
       "code": "069540",
-      "name": "ºû°úÀüÀÚ",
+      "name": "ë¹›ê³¼ì „ì",
       "score": 73,
       "current_price": 3005,
       "entry_price_range": [
@@ -53,11 +53,11 @@
       "change_rate_pct": 3.26,
       "in_volume_rank": true,
       "in_investor_rank": false,
-      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+      "expected_timing": "ë‹¹ì¼ ì¥ì¤‘ (ìµì¼ ì˜¤ì „ê¹Œì§€)"
     },
     {
       "code": "017900",
-      "name": "±¤ÀüÀÚ",
+      "name": "ê´‘ì „ì",
       "score": 66,
       "current_price": 7810,
       "entry_price_range": [
@@ -71,11 +71,11 @@
       "change_rate_pct": 15.02,
       "in_volume_rank": true,
       "in_investor_rank": false,
-      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+      "expected_timing": "ë‹¹ì¼ ì¥ì¤‘ (ìµì¼ ì˜¤ì „ê¹Œì§€)"
     },
     {
       "code": "009830",
-      "name": "ÇÑÈ­¼Ö·ç¼Ç",
+      "name": "í•œí™”ì†”ë£¨ì…˜",
       "score": 63,
       "current_price": 33900,
       "entry_price_range": [
@@ -89,11 +89,11 @@
       "change_rate_pct": 11.51,
       "in_volume_rank": true,
       "in_investor_rank": false,
-      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+      "expected_timing": "ë‹¹ì¼ ì¥ì¤‘ (ìµì¼ ì˜¤ì „ê¹Œì§€)"
     },
     {
       "code": "0197X0",
-      "name": "SOL SKÇÏÀÌ´Ğ½º¼±¹°´ÜÀÏÁ¾¸ñÀÎ¹ö½º2X",
+      "name": "SOL SKí•˜ì´ë‹‰ìŠ¤ì„ ë¬¼ë‹¨ì¼ì¢…ëª©ì¸ë²„ìŠ¤2X",
       "score": 62,
       "current_price": 11020,
       "entry_price_range": [
@@ -107,11 +107,11 @@
       "change_rate_pct": 10.14,
       "in_volume_rank": true,
       "in_investor_rank": false,
-      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+      "expected_timing": "ë‹¹ì¼ ì¥ì¤‘ (ìµì¼ ì˜¤ì „ê¹Œì§€)"
     },
     {
       "code": "010170",
-      "name": "´ëÇÑ±¤Åë½Å",
+      "name": "ëŒ€í•œê´‘í†µì‹ ",
       "score": 61,
       "current_price": 11460,
       "entry_price_range": [
@@ -125,11 +125,11 @@
       "change_rate_pct": 3.52,
       "in_volume_rank": true,
       "in_investor_rank": false,
-      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+      "expected_timing": "ë‹¹ì¼ ì¥ì¤‘ (ìµì¼ ì˜¤ì „ê¹Œì§€)"
     },
     {
       "code": "131400",
-      "name": "ÀÌºêÀÌÃ·´Ü¼ÒÀç",
+      "name": "ì´ë¸Œì´ì²¨ë‹¨ì†Œì¬",
       "score": 60,
       "current_price": 718,
       "entry_price_range": [
@@ -143,11 +143,11 @@
       "change_rate_pct": 6.69,
       "in_volume_rank": true,
       "in_investor_rank": false,
-      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+      "expected_timing": "ë‹¹ì¼ ì¥ì¤‘ (ìµì¼ ì˜¤ì „ê¹Œì§€)"
     },
     {
       "code": "264850",
-      "name": "ÀÌ·£½Ã½º",
+      "name": "ì´ëœì‹œìŠ¤",
       "score": 60,
       "current_price": 6550,
       "entry_price_range": [
@@ -161,11 +161,11 @@
       "change_rate_pct": 4.47,
       "in_volume_rank": true,
       "in_investor_rank": false,
-      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+      "expected_timing": "ë‹¹ì¼ ì¥ì¤‘ (ìµì¼ ì˜¤ì „ê¹Œì§€)"
     },
     {
       "code": "084650",
-      "name": "·¦Áö³ë¹Í½º",
+      "name": "ë©ì§€ë…¸ë¯¹ìŠ¤",
       "score": 60,
       "current_price": 882,
       "entry_price_range": [
@@ -179,8 +179,8 @@
       "change_rate_pct": 12.5,
       "in_volume_rank": true,
       "in_investor_rank": false,
-      "expected_timing": "´çÀÏ ÀåÁß (ÀÍÀÏ ¿ÀÀü±îÁö)"
+      "expected_timing": "ë‹¹ì¼ ì¥ì¤‘ (ìµì¼ ì˜¤ì „ê¹Œì§€)"
     }
   ],
-  "disclaimer": "º» °á°ú´Â ´çÀÏ °Å·¡·®/¼ö±Ş µ¥ÀÌÅÍ ±â¹İ ¾Ë°í¸®Áò »êÃâ°ªÀÌ¸ç ÅõÀÚ Á¶¾ğÀÌ ¾Æ´Õ´Ï´Ù. ´ÜÅ¸ ¸Å¸Å´Â º¯µ¿¼ºÀÌ ¸Å¿ì Å©¹Ç·Î ¹İµå½Ã ¼ÕÀı ±âÁØÀ» ÁöÅ°¼¼¿ä."
+  "disclaimer": "ë³¸ ê²°ê³¼ëŠ” ë‹¹ì¼ ê±°ë˜ëŸ‰/ìˆ˜ê¸‰ ë°ì´í„° ê¸°ë°˜ ì•Œê³ ë¦¬ì¦˜ ì‚°ì¶œê°’ì´ë©° íˆ¬ì ì¡°ì–¸ì´ ì•„ë‹™ë‹ˆë‹¤. ë‹¨íƒ€ ë§¤ë§¤ëŠ” ë³€ë™ì„±ì´ ë§¤ìš° í¬ë¯€ë¡œ ë°˜ë“œì‹œ ì†ì ˆ ê¸°ì¤€ì„ ì§€í‚¤ì„¸ìš”."
 }
