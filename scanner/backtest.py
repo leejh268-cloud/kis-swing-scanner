@@ -37,13 +37,18 @@ def build_regime_lookup(client) -> dict:
     """{'KOSPI': {date_str: bool_bullish, ...}, 'KOSDAQ': {...}} 형태로 날짜별 레짐을 미리 계산"""
     lookup = {}
     for market, code in [("KOSPI", KOSPI_INDEX_CODE), ("KOSDAQ", KOSDAQ_INDEX_CODE)]:
-        df = fetch_extended_index_ohlcv(client, code, total_days=LOOKBACK_DAYS + 120)
-        if len(df) < REGIME_MA_PERIOD + 1:
+        try:
+            df = fetch_extended_index_ohlcv(client, code, total_days=LOOKBACK_DAYS + 120)
+            if "close" not in df.columns or len(df) < REGIME_MA_PERIOD + 1:
+                print(f"  경고: {market} 지수 데이터를 못 가져왔습니다 (필드명 확인 필요). 레짐 필터 없이 진행합니다.")
+                lookup[market] = {}
+                continue
+            df["ma"] = ind.sma(df["close"], REGIME_MA_PERIOD)
+            df["bullish"] = df["close"] > df["ma"]
+            lookup[market] = dict(zip(df["date"], df["bullish"]))
+        except Exception as e:
+            print(f"  경고: {market} 지수 조회 실패 ({e}). 레짐 필터 없이 진행합니다.")
             lookup[market] = {}
-            continue
-        df["ma"] = ind.sma(df["close"], REGIME_MA_PERIOD)
-        df["bullish"] = df["close"] > df["ma"]
-        lookup[market] = dict(zip(df["date"], df["bullish"]))
     return lookup
 
 
