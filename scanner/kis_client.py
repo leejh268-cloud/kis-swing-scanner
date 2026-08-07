@@ -64,7 +64,7 @@ class KisClient:
     def _read_cache(self):
         try:
             if TOKEN_CACHE_PATH.exists():
-                return json.loads(TOKEN_CACHE_PATH.read_text())
+                return json.loads(TOKEN_CACHE_PATH.read_text(encoding="utf-8"))
         except Exception:
             pass
         return None
@@ -105,7 +105,7 @@ class KisClient:
             "expires_at": time.time() + expires_in,
         }
         try:
-            TOKEN_CACHE_PATH.write_text(json.dumps(cache))
+            TOKEN_CACHE_PATH.write_text(json.dumps(cache), encoding="utf-8")
         except Exception:
             pass
 
