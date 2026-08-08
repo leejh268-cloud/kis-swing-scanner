@@ -1,8 +1,20 @@
 {
-  "generated_at": null,
-  "scanned_count": 0,
-  "universe_count": 0,
+  "generated_at": "2026-08-08T15:44:34.908604",
+  "scanned_count": 71,
+  "universe_count": 71,
   "signal_count": 0,
+  "market_regime": {
+    "KOSPI": {
+      "bullish": false,
+      "close": 6258.77,
+      "ma50": 7605.76
+    },
+    "KOSDAQ": {
+      "bullish": false,
+      "close": 798.81,
+      "ma50": 874.68
+    }
+  },
   "results": [],
-  "disclaimer": "아직 스캔이 실행되지 않았습니다. GitHub Actions를 실행하면 이 파일이 자동으로 채워집니다."
+  "disclaimer": "본 결과는 기술적 지표 기반 알고리즘 산출값이며 투자 조언이 아닙니다. 투자 판단과 책임은 본인에게 있습니다."
 }
