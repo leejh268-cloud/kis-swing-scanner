@@ -3,6 +3,7 @@
 
 조건 (교집합 방식):
 1. 추세: 정배열 조짐 (종가 > MA20 > MA60) + ADX14 >= 15 (횡보장 필터링, 기존 20에서 완화)
+   + 과열 필터: 종가가 MA20 대비 8% 이상 떨어져(위로) 있으면 제외 (막 오른 종목 추격 매수 방지)
 2. 모멘텀: MACD 골든크로스 (최근 3봉 이내) + RSI14가 35~70 구간 (기존 40~65에서 확대)
 3. 거래량: 당일 거래량이 최근 20일 평균의 1.3배 이상 (기존 1.5배에서 완화) + OBV가 OBV 20일선 위
 
@@ -17,6 +18,7 @@ from . import indicators as ind
 
 STOP_LOSS_PCT = -0.03  # 요청하신 손절 기준 고정값
 MAX_HOLDING_DAYS = 15  # 3주(거래일 기준 약 15일) 이내
+MAX_EXTENSION_ABOVE_MA20 = 0.08  # 종가가 20일선보다 이 비율 이상 높으면 "과열"로 보고 제외
 
 
 def _tick_round(price: float) -> int:
@@ -55,7 +57,8 @@ def evaluate_swing_signal(df_with_ind: pd.DataFrame, code: str, name: str, marke
     close = float(last["close"])
 
     # --- 조건 1: 추세 ---
-    trend_ok = close > last["ma20"] > last["ma60"] and last["adx14"] >= 15
+    not_overextended = close <= last["ma20"] * (1 + MAX_EXTENSION_ABOVE_MA20)
+    trend_ok = close > last["ma20"] > last["ma60"] and last["adx14"] >= 15 and not_overextended
     trend_strength = min(100, max(0, (last["adx14"] - 15) * 3))  # 0~100 스케일 근사
 
     # --- 조건 2: 모멘텀 (최근 3봉 내 MACD 골든크로스) ---
