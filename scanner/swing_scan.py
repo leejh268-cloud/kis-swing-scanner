@@ -21,6 +21,14 @@ STOP_LOSS_PCT = -0.03  # 요청하신 손절 기준 고정값
 MAX_HOLDING_DAYS = 15  # 3주(거래일 기준 약 15일) 이내
 MAX_EXTENSION_ABOVE_MA20 = 0.08  # 종가가 20일선보다 이 비율 이상 높으면 "과열"로 보고 제외
 
+RR_MULTIPLE = 2.0  # 목표 손익비 배수 (위험 대비 몇 배 수익을 목표로 할지)
+MIN_ACCEPTABLE_RR = 1.3  # TARGET_MODE="skip_if_capped"일 때, 저항이 이 손익비보다 가까우면 스킵
+
+# "baseline"          : 기존 방식 (저항으로 목표가 캡, 스킵 없음)
+# "lower_rr"          : RR_MULTIPLE을 낮춰서(예: 1.5) 더 자주 목표 도달하게
+# "skip_if_capped"    : 저항이 너무 가까워 MIN_ACCEPTABLE_RR도 안 나오면 신호 자체를 스킵
+TARGET_MODE = "baseline"
+
 
 def _tick_round(price: float) -> int:
     """한국 주식 호가단위에 맞춰 대략 반올림 (참고용 근사치)"""
@@ -101,8 +109,15 @@ def evaluate_swing_signal(
 
     resistance = float(last["swing_high20"]) if not pd.isna(last["swing_high20"]) else entry * 1.1
     risk = entry - stop_fixed
-    target_rr = entry + 2 * risk  # 손익비 2:1
-    target = min(resistance, target_rr) if resistance > entry else target_rr
+    target_rr = entry + RR_MULTIPLE * risk
+
+    if TARGET_MODE == "skip_if_capped":
+        min_acceptable_target = entry + MIN_ACCEPTABLE_RR * risk
+        if resistance > entry and resistance < min_acceptable_target:
+            return None  # 저항이 너무 가까워서(손익비가 안 나와서) 진입 자체를 스킵
+        target = min(resistance, target_rr) if resistance > entry else target_rr
+    else:  # "baseline" 또는 "lower_rr" (RR_MULTIPLE 값만 다름, 로직은 동일)
+        target = min(resistance, target_rr) if resistance > entry else target_rr
 
     if target <= entry * 1.01:
         return None  # 목표가가 사실상 없으면(저항이 바로 위) 스킵
