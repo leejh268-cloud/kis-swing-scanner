@@ -24,10 +24,10 @@ MAX_EXTENSION_ABOVE_MA20 = 0.08  # 종가가 20일선보다 이 비율 이상 �
 RR_MULTIPLE = 2.0  # 목표 손익비 배수 (위험 대비 몇 배 수익을 목표로 할지)
 MIN_ACCEPTABLE_RR = 1.3  # TARGET_MODE="skip_if_capped"일 때, 저항이 이 손익비보다 가까우면 스킵
 
-# "baseline"          : 기존 방식 (저항으로 목표가 캡, 스킵 없음)
-# "lower_rr"          : RR_MULTIPLE을 낮춰서(예: 1.5) 더 자주 목표 도달하게
-# "skip_if_capped"    : 저항이 너무 가까워 MIN_ACCEPTABLE_RR도 안 나오면 신호 자체를 스킵
-TARGET_MODE = "baseline"
+# "baseline"          : 기존 방식 (저항으로 목표가 캡, 스킵 없음) — 백테스트 손익비 1.04
+# "lower_rr"          : RR_MULTIPLE을 낮춰서(예: 1.5) 더 자주 목표 도달하게 — 백테스트 결과 0.94로 더 나쁨, 비추천
+# "skip_if_capped"    : 저항이 너무 가까워 MIN_ACCEPTABLE_RR도 안 나오면 신호 자체를 스킵 — 백테스트 손익비 1.15로 최고, 기본값
+TARGET_MODE = "skip_if_capped"
 
 
 def _tick_round(price: float) -> int:

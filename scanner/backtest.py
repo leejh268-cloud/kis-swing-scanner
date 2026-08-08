@@ -33,6 +33,8 @@ LOOKBACK_DAYS = 450        # 달력일 기준 (영업일 약 300일 = 약 1.2년
 MIN_HISTORY_FOR_SIGNAL = 65  # 지표 계산에 필요한 최소 데이터 길이
 USE_REGIME_FILTER = True   # True면 신호 발생일에 해당 시장 지수가 하락장이면 그 거래를 건너뜀
 USE_RS_FILTER = False      # ⚠️ 백테스트 결과 손익비 악화(1.04→0.83) 확인되어 기본 비활성화
+# 목표가 산출 방식(TARGET_MODE)은 scanner/swing_scan.py에서 관리합니다.
+# 백테스트 결과: baseline 1.04 / lower_rr 0.94 / skip_if_capped 1.15(채택)
 
 
 def build_regime_lookup(client) -> dict:
