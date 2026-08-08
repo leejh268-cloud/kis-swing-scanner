@@ -13,6 +13,10 @@ KOSDAQ_INDEX_CODE = "1001"
 RS_PERIOD = 20  # 최근 며칠 수익률을 비교할지 (거래일 기준)
 RS_MARGIN = 0.0  # 지수 대비 최소 몇 %p 더 강해야 통과할지 (퍼센트포인트, 0 = 지수만 이기면 통과)
 
+# ⚠️ 백테스트 결과 이 필터가 오히려 손익비를 악화시키는 것으로 확인되어(1.04 → 0.83)
+# 기본값을 꺼둔 상태입니다. 다른 종목군/기간으로 다시 검증해보고 싶다면 True로 바꾸세요.
+ENABLED = False
+
 
 def build_index_return_lookup(client, extra_days: int = 120) -> dict:
     """
@@ -49,6 +53,8 @@ def passes_rs_filter(df_with_ind, market: str, signal_date: str, index_return_lo
     index_return_lookup이 없거나 해당 날짜 데이터가 없으면 관대하게 통과시킵니다
     (레짐 필터와 같은 원칙: 데이터 부족이 스캔 자체를 막으면 안 됨).
     """
+    if not ENABLED:
+        return True
     if not index_return_lookup:
         return True
     market_lookup = index_return_lookup.get(market)
