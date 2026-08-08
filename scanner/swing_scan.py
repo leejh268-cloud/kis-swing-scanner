@@ -15,6 +15,7 @@
 """
 import pandas as pd
 from . import indicators as ind
+from . import rs_filter
 
 STOP_LOSS_PCT = -0.03  # 요청하신 손절 기준 고정값
 MAX_HOLDING_DAYS = 15  # 3주(거래일 기준 약 15일) 이내
@@ -40,7 +41,9 @@ def _tick_round(price: float) -> int:
     return int(round(price / unit) * unit)
 
 
-def evaluate_swing_signal(df_with_ind: pd.DataFrame, code: str, name: str, market: str) -> dict | None:
+def evaluate_swing_signal(
+    df_with_ind: pd.DataFrame, code: str, name: str, market: str, index_return_lookup: dict = None
+) -> dict | None:
     """
     지표가 계산된 일봉 DataFrame(오래된 날짜 -> 최신 날짜 순)을 받아
     스윙매매 신호 여부와 점수, 진입/목표/손절가를 반환. 조건 미충족이면 None.
@@ -73,6 +76,10 @@ def evaluate_swing_signal(df_with_ind: pd.DataFrame, code: str, name: str, marke
     volume_ok = last["vol_ratio20"] >= 1.3 and last["obv"] >= last.get("obv_ma20", float("inf"))
 
     if not (trend_ok and momentum_ok and volume_ok):
+        return None
+
+    signal_date = str(last["date"]) if "date" in last else None
+    if not rs_filter.passes_rs_filter(df_with_ind, market, signal_date, index_return_lookup):
         return None
 
     # --- 점수 산출 (교집합 강도) ---
@@ -130,7 +137,7 @@ def evaluate_swing_signal(df_with_ind: pd.DataFrame, code: str, name: str, marke
     }
 
 
-def scan_universe(price_data: dict, universe_meta: dict) -> list:
+def scan_universe(price_data: dict, universe_meta: dict, index_return_lookup: dict = None) -> list:
     """
     price_data: {code: DataFrame(OHLCV, 지표포함)} 형태
     universe_meta: {code: {"name": ..., "market": ...}}
@@ -139,7 +146,9 @@ def scan_universe(price_data: dict, universe_meta: dict) -> list:
     for code, df in price_data.items():
         meta = universe_meta.get(code, {})
         try:
-            r = evaluate_swing_signal(df, code, meta.get("name", code), meta.get("market", ""))
+            r = evaluate_swing_signal(
+                df, code, meta.get("name", code), meta.get("market", ""), index_return_lookup=index_return_lookup
+            )
         except Exception:
             r = None
         if r:

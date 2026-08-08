@@ -21,6 +21,8 @@ from scanner.kis_client import KisClient
 from scanner import universe
 from scanner import indicators as ind
 from scanner.swing_scan import scan_universe
+from scanner.regime_filter import get_market_regime, apply_regime_filter
+from scanner.rs_filter import build_index_return_lookup
 
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "docs" / "data" / "swing_results.json"
 
@@ -56,6 +58,15 @@ def fetch_ohlcv_df(client: KisClient, code: str) -> pd.DataFrame:
 def main():
     client = KisClient()
 
+    print("[0/4] 시장 레짐(코스피/코스닥 추세) 확인...")
+    regime = get_market_regime(client)
+    for market, info in regime.items():
+        status = "상승장" if info.get("bullish") else "하락장(신호 제외)"
+        print(f" -> {market}: {status} (종가 {info.get('close')} / 50일선 {info.get('ma50')})")
+
+    print("[0-1/4] 상대강도(RS) 필터용 지수 수익률 조회...")
+    index_return_lookup = build_index_return_lookup(client)
+
     print("[1/4] 종목마스터 다운로드 & 필터링...")
     df_universe = universe.load_universe(refresh=True)
     df_filtered = universe.filter_tradable_universe(df_universe)
@@ -88,14 +99,17 @@ def main():
             print(f"  진행: {i + 1}/{len(codes)} ({elapsed:.0f}초 경과)")
 
     print(f"[3/4] 신호 평가 중... (수집 성공 {len(price_data)}건, 실패 {fail_count}건)")
-    results = scan_universe(price_data, meta)
-    print(f" -> 스윙 신호 종목 수: {len(results)}")
+    results = scan_universe(price_data, meta, index_return_lookup=index_return_lookup)
+    results_before_regime = len(results)
+    results = apply_regime_filter(results, regime)
+    print(f" -> 신호 종목 수: {results_before_regime} (레짐 필터 적용 후 {len(results)})")
 
     output = {
         "generated_at": datetime.now().isoformat(),
         "scanned_count": len(price_data),
         "universe_count": len(df_filtered),
         "signal_count": len(results),
+        "market_regime": regime,
         "results": results,
         "disclaimer": "본 결과는 기술적 지표 기반 알고리즘 산출값이며 투자 조언이 아닙니다. 투자 판단과 책임은 본인에게 있습니다.",
     }

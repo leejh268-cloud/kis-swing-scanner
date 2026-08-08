@@ -26,11 +26,13 @@ from scanner import indicators as ind
 from scanner.data_utils import fetch_extended_stock_ohlcv, fetch_extended_index_ohlcv
 from scanner.swing_scan import evaluate_swing_signal, MAX_HOLDING_DAYS
 from scanner.regime_filter import KOSPI_INDEX_CODE, KOSDAQ_INDEX_CODE, REGIME_MA_PERIOD
+from scanner.rs_filter import build_index_return_lookup
 
 SAMPLE_SIZE = 150          # 시가총액 상위 몇 개 종목으로 백테스트할지 (너무 크면 시간이 오래 걸림)
 LOOKBACK_DAYS = 450        # 달력일 기준 (영업일 약 300일 = 약 1.2년)
 MIN_HISTORY_FOR_SIGNAL = 65  # 지표 계산에 필요한 최소 데이터 길이
 USE_REGIME_FILTER = True   # True면 신호 발생일에 해당 시장 지수가 하락장이면 그 거래를 건너뜀
+USE_RS_FILTER = True       # True면 지수보다 최근 수익률이 못한 종목의 신호를 건너뜀
 
 
 def build_regime_lookup(client) -> dict:
@@ -52,7 +54,14 @@ def build_regime_lookup(client) -> dict:
     return lookup
 
 
-def simulate_ticker(df_with_ind: pd.DataFrame, code: str, name: str, market: str, regime_lookup: dict = None) -> list:
+def simulate_ticker(
+    df_with_ind: pd.DataFrame,
+    code: str,
+    name: str,
+    market: str,
+    regime_lookup: dict = None,
+    index_return_lookup: dict = None,
+) -> list:
     """
     한 종목의 전체 기간 동안, 매일 신호 조건을 평가하면서 가상매매를 시뮬레이션.
     신호가 뜨면 그 다음날부터 최대 MAX_HOLDING_DAYS 거래일 동안 목표가/손절가 중
@@ -65,7 +74,7 @@ def simulate_ticker(df_with_ind: pd.DataFrame, code: str, name: str, market: str
     i = MIN_HISTORY_FOR_SIGNAL
     while i < n - 1:
         window = df_with_ind.iloc[: i + 1]
-        signal = evaluate_swing_signal(window, code, name, market)
+        signal = evaluate_swing_signal(window, code, name, market, index_return_lookup=index_return_lookup)
         if signal is None:
             i += 1
             continue
@@ -132,6 +141,11 @@ def main():
             bullish_days = sum(1 for v in lookup.values() if v)
             print(f" -> {market}: 총 {len(lookup)}일 중 상승장 {bullish_days}일")
 
+    index_return_lookup = None
+    if USE_RS_FILTER:
+        print("[0-1/3] 상대강도(RS) 필터용 지수 수익률 계산...")
+        index_return_lookup = build_index_return_lookup(client, extra_days=LOOKBACK_DAYS)
+
     print("[1/3] 시가총액 상위 종목 선정...")
     df_universe = universe.load_universe(refresh=True)
     df_filtered = universe.filter_tradable_universe(df_universe)
@@ -147,7 +161,9 @@ def main():
             if len(df) < MIN_HISTORY_FOR_SIGNAL + 10:
                 continue
             df_ind = ind.compute_all(df)
-            trades = simulate_ticker(df_ind, code, name, market, regime_lookup=regime_lookup)
+            trades = simulate_ticker(
+                df_ind, code, name, market, regime_lookup=regime_lookup, index_return_lookup=index_return_lookup
+            )
             all_trades.extend(trades)
         except Exception as e:
             print(f"  경고: {code} 백테스트 실패 ({e})")

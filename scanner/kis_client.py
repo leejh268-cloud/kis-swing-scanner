@@ -181,6 +181,28 @@ class KisClient:
         )
         return data.get("output", {})
 
+    # ------------------------------------------------------- 지수 일봉 (레짐 필터용)
+    def get_daily_index_ohlcv(self, index_code: str, start_date: str, end_date: str):
+        """
+        국내 업종/지수 기간별시세(일봉) 조회
+        TR_ID: FHKUP03500100 (⚠️ 최신 문서 재확인 권장)
+        endpoint: /uapi/domestic-stock/v1/quotations/inquire-daily-indexchartprice
+        index_code 예: "0001"=코스피종합, "1001"=코스닥종합
+        """
+        params = {
+            "FID_COND_MRKT_DIV_CODE": "U",
+            "FID_INPUT_ISCD": index_code,
+            "FID_INPUT_DATE_1": start_date,
+            "FID_INPUT_DATE_2": end_date,
+            "FID_PERIOD_DIV_CODE": "D",
+        }
+        data = self._get(
+            "/uapi/domestic-stock/v1/quotations/inquire-daily-indexchartprice",
+            "FHKUP03500100",
+            params,
+        )
+        return data.get("output2", [])
+
     # --------------------------------------------------------- 거래량 순위
     def get_volume_rank(self, market_div: str = "J", top_n: int = 30):
         """

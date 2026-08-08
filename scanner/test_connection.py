@@ -60,6 +60,15 @@ def main():
     except Exception as e:
         print(f"❌ 수급상위 API 오류: {e} — TR_ID/파라미터를 API 포탈에서 재확인하세요.")
 
+    print("\n=== 5-1. 코스피 지수 일봉 조회 (레짐 필터용) ===")
+    try:
+        idx_rows = client.get_daily_index_ohlcv("0001", start, end)
+        print(f" -> {len(idx_rows)}건")
+        if idx_rows:
+            print("샘플(최근 1건):", json.dumps(idx_rows[-1], ensure_ascii=False, indent=2))
+    except Exception as e:
+        print(f"❌ 지수 API 오류: {e} — TR_ID/파라미터를 API 포탈에서 재확인하세요.")
+
     print("\n=== 6. 지표 계산 테스트 ===")
     import pandas as pd
 
