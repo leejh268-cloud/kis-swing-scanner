@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T14:37:16.338509",
+  "generated_at": "2026-08-09T14:37:16.865694",
   "candidates": [
     {
       "code": "252670",
@@ -146,24 +146,6 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "264850",
-      "name": "이랜시스",
-      "score": 60,
-      "current_price": 6550,
-      "entry_price_range": [
-        6520,
-        6580
-      ],
-      "target_price": 6780,
-      "stop_loss_price": 6390,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 4.47,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
       "code": "131400",
       "name": "이브이첨단소재",
       "score": 60,
@@ -177,6 +159,24 @@
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
       "change_rate_pct": 6.69,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "264850",
+      "name": "이랜시스",
+      "score": 60,
+      "current_price": 6550,
+      "entry_price_range": [
+        6520,
+        6580
+      ],
+      "target_price": 6780,
+      "stop_loss_price": 6390,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 4.47,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
