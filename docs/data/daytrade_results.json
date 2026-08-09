@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T14:37:21.086502",
+  "generated_at": "2026-08-09T14:37:21.635210",
   "candidates": [
     {
       "code": "252670",
@@ -146,24 +146,6 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "084650",
-      "name": "랩지노믹스",
-      "score": 60,
-      "current_price": 882,
-      "entry_price_range": [
-        878,
-        886
-      ],
-      "target_price": 913,
-      "stop_loss_price": 860,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 12.5,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
       "code": "264850",
       "name": "이랜시스",
       "score": 60,
@@ -177,6 +159,24 @@
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
       "change_rate_pct": 4.47,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "084650",
+      "name": "랩지노믹스",
+      "score": 60,
+      "current_price": 882,
+      "entry_price_range": [
+        878,
+        886
+      ],
+      "target_price": 913,
+      "stop_loss_price": 860,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 12.5,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
