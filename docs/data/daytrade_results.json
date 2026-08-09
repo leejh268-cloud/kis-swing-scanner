@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T14:37:18.520230",
+  "generated_at": "2026-08-09T14:37:19.225072",
   "candidates": [
     {
       "code": "252670",
@@ -128,24 +128,6 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "131400",
-      "name": "이브이첨단소재",
-      "score": 60,
-      "current_price": 718,
-      "entry_price_range": [
-        714,
-        722
-      ],
-      "target_price": 743,
-      "stop_loss_price": 700,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 6.69,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
       "code": "084650",
       "name": "랩지노믹스",
       "score": 60,
@@ -159,6 +141,24 @@
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
       "change_rate_pct": 12.5,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "131400",
+      "name": "이브이첨단소재",
+      "score": 60,
+      "current_price": 718,
+      "entry_price_range": [
+        714,
+        722
+      ],
+      "target_price": 743,
+      "stop_loss_price": 700,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 6.69,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
