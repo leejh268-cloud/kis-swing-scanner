@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T12:30:46.806790",
+  "generated_at": "2026-08-22T14:00:03.493977",
   "candidates": [
     {
       "code": "001510",
@@ -164,6 +164,24 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
+      "code": "041190",
+      "name": "우리기술투자",
+      "score": 60,
+      "current_price": 5920,
+      "entry_price_range": [
+        5890,
+        5950
+      ],
+      "target_price": 6130,
+      "stop_loss_price": 5770,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 19.96,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
       "code": "122630",
       "name": "KODEX 레버리지",
       "score": 60,
@@ -177,6 +195,42 @@
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
       "change_rate_pct": 3.25,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "0195S0",
+      "name": "TIGER SK하이닉스단일종목레버리지",
+      "score": 60,
+      "current_price": 9005,
+      "entry_price_range": [
+        8960,
+        9050
+      ],
+      "target_price": 9320,
+      "stop_loss_price": 8780,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 5.51,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "462860",
+      "name": "더즌",
+      "score": 60,
+      "current_price": 2535,
+      "entry_price_range": [
+        2520,
+        2550
+      ],
+      "target_price": 2625,
+      "stop_loss_price": 2470,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 5.85,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -213,60 +267,6 @@
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
       "change_rate_pct": 6.95,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "462860",
-      "name": "더즌",
-      "score": 60,
-      "current_price": 2535,
-      "entry_price_range": [
-        2520,
-        2550
-      ],
-      "target_price": 2625,
-      "stop_loss_price": 2470,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 5.85,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "041190",
-      "name": "우리기술투자",
-      "score": 60,
-      "current_price": 5920,
-      "entry_price_range": [
-        5890,
-        5950
-      ],
-      "target_price": 6130,
-      "stop_loss_price": 5770,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 19.96,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "0195S0",
-      "name": "TIGER SK하이닉스단일종목레버리지",
-      "score": 60,
-      "current_price": 9005,
-      "entry_price_range": [
-        8960,
-        9050
-      ],
-      "target_price": 9320,
-      "stop_loss_price": 8780,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 5.51,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
