@@ -1,74 +1,92 @@
 {
-  "generated_at": "2026-08-22T14:00:03.493977",
+  "generated_at": "2026-08-27T14:31:43.414229",
   "candidates": [
     {
-      "code": "001510",
-      "name": "SK증권",
+      "code": "462330",
+      "name": "KODEX 2차전지산업레버리지",
+      "score": 76,
+      "current_price": 1091,
+      "entry_price_range": [
+        1086,
+        1096
+      ],
+      "target_price": 1129,
+      "stop_loss_price": 1064,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 9.87,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "233740",
+      "name": "KODEX 코스닥150레버리지",
       "score": 75,
-      "current_price": 2955,
+      "current_price": 7310,
       "entry_price_range": [
-        2940,
-        2970
+        7270,
+        7350
       ],
-      "target_price": 3060,
-      "stop_loss_price": 2880,
+      "target_price": 7570,
+      "stop_loss_price": 7130,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 5.16,
+      "change_rate_pct": 2.89,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "251340",
-      "name": "KODEX 코스닥150선물인버스",
+      "code": "069540",
+      "name": "빛과전자",
       "score": 73,
-      "current_price": 2470,
+      "current_price": 3107,
       "entry_price_range": [
-        2460,
-        2480
+        3090,
+        3125
       ],
-      "target_price": 2555,
-      "stop_loss_price": 2410,
+      "target_price": 3215,
+      "stop_loss_price": 3030,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 5.78,
+      "change_rate_pct": 9.21,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "033340",
-      "name": "좋은사람들",
+      "code": "010170",
+      "name": "대한광통신",
       "score": 71,
-      "current_price": 595,
+      "current_price": 14860,
       "entry_price_range": [
-        592,
-        598
+        14790,
+        14930
       ],
-      "target_price": 616,
-      "stop_loss_price": 580,
+      "target_price": 15380,
+      "stop_loss_price": 14490,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 6.44,
+      "change_rate_pct": 10.07,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "069500",
-      "name": "KODEX 200",
-      "score": 69,
-      "current_price": 109980,
+      "code": "229200",
+      "name": "KODEX 코스닥150",
+      "score": 70,
+      "current_price": 14375,
       "entry_price_range": [
-        109400,
-        110500
+        14300,
+        14450
       ],
-      "target_price": 113800,
-      "stop_loss_price": 107200,
+      "target_price": 14880,
+      "stop_loss_price": 14020,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 1.65,
+      "change_rate_pct": 1.23,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -76,107 +94,35 @@
     {
       "code": "0193T0",
       "name": "KODEX SK하이닉스단일종목레버리지",
-      "score": 68,
-      "current_price": 10630,
+      "score": 69,
+      "current_price": 10450,
       "entry_price_range": [
-        10580,
-        10680
+        10400,
+        10500
       ],
-      "target_price": 11000,
-      "stop_loss_price": 10360,
+      "target_price": 10820,
+      "stop_loss_price": 10190,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 5.46,
+      "change_rate_pct": 3.57,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "001210",
-      "name": "금호전기",
-      "score": 65,
-      "current_price": 8380,
+      "code": "047040",
+      "name": "대우건설",
+      "score": 67,
+      "current_price": 20100,
       "entry_price_range": [
-        8340,
-        8420
+        20000,
+        20200
       ],
-      "target_price": 8670,
-      "stop_loss_price": 8170,
+      "target_price": 20800,
+      "stop_loss_price": 19600,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 12.33,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "005930",
-      "name": "삼성전자",
-      "score": 63,
-      "current_price": 281500,
-      "entry_price_range": [
-        280000,
-        283000
-      ],
-      "target_price": 291500,
-      "stop_loss_price": 274500,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 3.87,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "Q530107",
-      "name": "삼성 인버스 2X 코스닥150 선물 ETN",
-      "score": 62,
-      "current_price": 1852,
-      "entry_price_range": [
-        1843,
-        1861
-      ],
-      "target_price": 1917,
-      "stop_loss_price": 1806,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 10.37,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "025980",
-      "name": "아난티",
-      "score": 61,
-      "current_price": 5510,
-      "entry_price_range": [
-        5480,
-        5540
-      ],
-      "target_price": 5700,
-      "stop_loss_price": 5370,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 5.56,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "041190",
-      "name": "우리기술투자",
-      "score": 60,
-      "current_price": 5920,
-      "entry_price_range": [
-        5890,
-        5950
-      ],
-      "target_price": 6130,
-      "stop_loss_price": 5770,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 19.96,
+      "change_rate_pct": 5.24,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -184,17 +130,71 @@
     {
       "code": "122630",
       "name": "KODEX 레버리지",
-      "score": 60,
-      "current_price": 112240,
+      "score": 63,
+      "current_price": 109745,
       "entry_price_range": [
-        111700,
-        112800
+        109200,
+        110300
       ],
-      "target_price": 116200,
-      "stop_loss_price": 109400,
+      "target_price": 113600,
+      "stop_loss_price": 107000,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 3.25,
+      "change_rate_pct": 2.09,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "368600",
+      "name": "아이씨에이치",
+      "score": 62,
+      "current_price": 1219,
+      "entry_price_range": [
+        1213,
+        1225
+      ],
+      "target_price": 1262,
+      "stop_loss_price": 1189,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 26.98,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "069500",
+      "name": "KODEX 200",
+      "score": 61,
+      "current_price": 108865,
+      "entry_price_range": [
+        108300,
+        109400
+      ],
+      "target_price": 112700,
+      "stop_loss_price": 106100,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 1.07,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "289080",
+      "name": "SV인베스트먼트",
+      "score": 60,
+      "current_price": 2540,
+      "entry_price_range": [
+        2525,
+        2555
+      ],
+      "target_price": 2630,
+      "stop_loss_price": 2475,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 4.53,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -203,34 +203,16 @@
       "code": "0195S0",
       "name": "TIGER SK하이닉스단일종목레버리지",
       "score": 60,
-      "current_price": 9005,
+      "current_price": 8860,
       "entry_price_range": [
-        8960,
-        9050
+        8820,
+        8900
       ],
-      "target_price": 9320,
-      "stop_loss_price": 8780,
+      "target_price": 9170,
+      "stop_loss_price": 8640,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 5.51,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "462860",
-      "name": "더즌",
-      "score": 60,
-      "current_price": 2535,
-      "entry_price_range": [
-        2520,
-        2550
-      ],
-      "target_price": 2625,
-      "stop_loss_price": 2470,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 5.85,
+      "change_rate_pct": 3.69,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -239,34 +221,52 @@
       "code": "102110",
       "name": "TIGER 200",
       "score": 60,
-      "current_price": 110225,
+      "current_price": 109155,
       "entry_price_range": [
-        109700,
-        110800
+        108600,
+        109700
       ],
-      "target_price": 114100,
-      "stop_loss_price": 107500,
+      "target_price": 113000,
+      "stop_loss_price": 106400,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 1.65,
+      "change_rate_pct": 1.08,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "459550",
-      "name": "알트",
+      "code": "412570",
+      "name": "TIGER 2차전지TOP10레버리지",
       "score": 60,
-      "current_price": 2385,
+      "current_price": 1324,
       "entry_price_range": [
-        2375,
-        2395
+        1317,
+        1331
       ],
-      "target_price": 2470,
-      "stop_loss_price": 2325,
+      "target_price": 1370,
+      "stop_loss_price": 1291,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 6.95,
+      "change_rate_pct": 10.43,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "005930",
+      "name": "삼성전자",
+      "score": 60,
+      "current_price": 265000,
+      "entry_price_range": [
+        263500,
+        266500
+      ],
+      "target_price": 274500,
+      "stop_loss_price": 258500,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 1.34,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
