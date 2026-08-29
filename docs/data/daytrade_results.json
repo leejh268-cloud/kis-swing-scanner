@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T12:30:47.311580",
+  "generated_at": "2026-08-29T14:00:03.297319",
   "candidates": [
     {
       "code": "252670",
@@ -182,24 +182,6 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "032820",
-      "name": "우리기술",
-      "score": 60,
-      "current_price": 12510,
-      "entry_price_range": [
-        12450,
-        12570
-      ],
-      "target_price": 12950,
-      "stop_loss_price": 12200,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 2.21,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
       "code": "0197X0",
       "name": "SOL SK하이닉스선물단일종목인버스2X",
       "score": 60,
@@ -231,6 +213,24 @@
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
       "change_rate_pct": 5.92,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "032820",
+      "name": "우리기술",
+      "score": 60,
+      "current_price": 12510,
+      "entry_price_range": [
+        12450,
+        12570
+      ],
+      "target_price": 12950,
+      "stop_loss_price": 12200,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 2.21,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
