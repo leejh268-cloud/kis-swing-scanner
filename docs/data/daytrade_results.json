@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T12:30:48.522068",
+  "generated_at": "2026-09-05T14:00:04.174192",
   "candidates": [
     {
       "code": "386380",
@@ -164,19 +164,37 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "004310",
-      "name": "현대약품",
+      "code": "0195S0",
+      "name": "TIGER SK하이닉스단일종목레버리지",
       "score": 60,
-      "current_price": 7950,
+      "current_price": 8060,
       "entry_price_range": [
-        7910,
-        7990
+        8020,
+        8100
       ],
-      "target_price": 8230,
-      "stop_loss_price": 7750,
+      "target_price": 8340,
+      "stop_loss_price": 7860,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 3.52,
+      "change_rate_pct": 6.75,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "122630",
+      "name": "KODEX 레버리지",
+      "score": 60,
+      "current_price": 103055,
+      "entry_price_range": [
+        102500,
+        103600
+      ],
+      "target_price": 106700,
+      "stop_loss_price": 100500,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 3.99,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -200,55 +218,37 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "0195S0",
-      "name": "TIGER SK하이닉스단일종목레버리지",
+      "code": "004310",
+      "name": "현대약품",
       "score": 60,
-      "current_price": 8060,
+      "current_price": 7950,
       "entry_price_range": [
-        8020,
-        8100
+        7910,
+        7990
       ],
-      "target_price": 8340,
-      "stop_loss_price": 7860,
+      "target_price": 8230,
+      "stop_loss_price": 7750,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 6.75,
+      "change_rate_pct": 3.52,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "396500",
-      "name": "TIGER 반도체TOP10",
+      "code": "232080",
+      "name": "TIGER 코스닥150",
       "score": 60,
-      "current_price": 34940,
+      "current_price": 14110,
       "entry_price_range": [
-        34750,
-        35100
+        14040,
+        14180
       ],
-      "target_price": 36150,
-      "stop_loss_price": 34050,
+      "target_price": 14600,
+      "stop_loss_price": 13760,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 4.63,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "0167A0",
-      "name": "SOL AI반도체TOP2플러스",
-      "score": 60,
-      "current_price": 17100,
-      "entry_price_range": [
-        17010,
-        17190
-      ],
-      "target_price": 17700,
-      "stop_loss_price": 16670,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 3.67,
+      "change_rate_pct": 3.9,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
