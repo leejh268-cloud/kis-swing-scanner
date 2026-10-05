@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T14:00:04.222998",
+  "generated_at": "2026-10-05T12:30:46.727116",
   "candidates": [
     {
       "code": "462330",
@@ -128,42 +128,6 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "069540",
-      "name": "빛과전자",
-      "score": 60,
-      "current_price": 4400,
-      "entry_price_range": [
-        4380,
-        4420
-      ],
-      "target_price": 4555,
-      "stop_loss_price": 4290,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 6.28,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "478340",
-      "name": "나라스페이스테크놀로지",
-      "score": 60,
-      "current_price": 17090,
-      "entry_price_range": [
-        17000,
-        17180
-      ],
-      "target_price": 17690,
-      "stop_loss_price": 16660,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 20.69,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
       "code": "0193T0",
       "name": "KODEX SK하이닉스단일종목레버리지",
       "score": 60,
@@ -177,24 +141,6 @@
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
       "change_rate_pct": 1.14,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "468670",
-      "name": "브릴스",
-      "score": 60,
-      "current_price": 34150,
-      "entry_price_range": [
-        34000,
-        34300
-      ],
-      "target_price": 35350,
-      "stop_loss_price": 33300,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 12.15,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -218,6 +164,24 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
+      "code": "478340",
+      "name": "나라스페이스테크놀로지",
+      "score": 60,
+      "current_price": 17090,
+      "entry_price_range": [
+        17000,
+        17180
+      ],
+      "target_price": 17690,
+      "stop_loss_price": 16660,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 20.69,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
       "code": "072950",
       "name": "빛샘전자",
       "score": 60,
@@ -236,6 +200,24 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
+      "code": "468670",
+      "name": "브릴스",
+      "score": 60,
+      "current_price": 34150,
+      "entry_price_range": [
+        34000,
+        34300
+      ],
+      "target_price": 35350,
+      "stop_loss_price": 33300,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 12.15,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
       "code": "041190",
       "name": "우리기술투자",
       "score": 60,
@@ -249,6 +231,24 @@
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
       "change_rate_pct": 7.19,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "069540",
+      "name": "빛과전자",
+      "score": 60,
+      "current_price": 4400,
+      "entry_price_range": [
+        4380,
+        4420
+      ],
+      "target_price": 4555,
+      "stop_loss_price": 4290,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 6.28,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
