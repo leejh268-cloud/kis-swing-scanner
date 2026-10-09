@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T12:30:47.083625",
+  "generated_at": "2026-10-09T14:00:03.047781",
   "candidates": [
     {
       "code": "252670",
@@ -182,37 +182,19 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "018880",
-      "name": "한온시스템",
+      "code": "452190",
+      "name": "한빛레이저",
       "score": 60,
-      "current_price": 4020,
+      "current_price": 6290,
       "entry_price_range": [
-        4000,
-        4040
+        6260,
+        6320
       ],
-      "target_price": 4160,
-      "stop_loss_price": 3920,
+      "target_price": 6510,
+      "stop_loss_price": 6130,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 4.28,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "0197X0",
-      "name": "SOL SK하이닉스선물단일종목인버스2X",
-      "score": 60,
-      "current_price": 6515,
-      "entry_price_range": [
-        6480,
-        6550
-      ],
-      "target_price": 6740,
-      "stop_loss_price": 6350,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 5.0,
+      "change_rate_pct": 5.01,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -236,6 +218,24 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
+      "code": "018880",
+      "name": "한온시스템",
+      "score": 60,
+      "current_price": 4020,
+      "entry_price_range": [
+        4000,
+        4040
+      ],
+      "target_price": 4160,
+      "stop_loss_price": 3920,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 4.28,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
       "code": "412570",
       "name": "TIGER 2차전지TOP10레버리지",
       "score": 60,
@@ -254,19 +254,19 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "452190",
-      "name": "한빛레이저",
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
       "score": 60,
-      "current_price": 6290,
+      "current_price": 6515,
       "entry_price_range": [
-        6260,
-        6320
+        6480,
+        6550
       ],
-      "target_price": 6510,
-      "stop_loss_price": 6130,
+      "target_price": 6740,
+      "stop_loss_price": 6350,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 5.01,
+      "change_rate_pct": 5.0,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
