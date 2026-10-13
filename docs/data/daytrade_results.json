@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-10-10T14:00:02.942235",
+  "generated_at": "2026-10-13T14:00:04.503354",
   "candidates": [
     {
       "code": "252670",
       "name": "KODEX 200선물인버스2X",
       "score": 79,
-      "current_price": 77,
+      "current_price": 95,
       "entry_price_range": [
-        77,
-        77
+        95,
+        95
       ],
-      "target_price": 80,
-      "stop_loss_price": 75,
+      "target_price": 98,
+      "stop_loss_price": 93,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 5.48,
+      "change_rate_pct": 14.46,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -23,16 +23,16 @@
       "code": "114800",
       "name": "KODEX 인버스",
       "score": 78,
-      "current_price": 1035,
+      "current_price": 1152,
       "entry_price_range": [
-        1030,
-        1040
+        1146,
+        1158
       ],
-      "target_price": 1071,
-      "stop_loss_price": 1009,
+      "target_price": 1192,
+      "stop_loss_price": 1123,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 2.68,
+      "change_rate_pct": 7.16,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -41,34 +41,16 @@
       "code": "252710",
       "name": "TIGER 200선물인버스2X",
       "score": 77,
-      "current_price": 85,
+      "current_price": 103,
       "entry_price_range": [
-        85,
-        85
+        102,
+        104
       ],
-      "target_price": 88,
-      "stop_loss_price": 83,
+      "target_price": 107,
+      "stop_loss_price": 100,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 6.25,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "462330",
-      "name": "KODEX 2차전지산업레버리지",
-      "score": 76,
-      "current_price": 1179,
-      "entry_price_range": [
-        1173,
-        1185
-      ],
-      "target_price": 1220,
-      "stop_loss_price": 1150,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 2.52,
+      "change_rate_pct": 13.19,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -76,17 +58,17 @@
     {
       "code": "251340",
       "name": "KODEX 코스닥150선물인버스",
-      "score": 72,
-      "current_price": 2210,
+      "score": 73,
+      "current_price": 2395,
       "entry_price_range": [
-        2200,
-        2220
+        2385,
+        2405
       ],
-      "target_price": 2285,
-      "stop_loss_price": 2155,
+      "target_price": 2480,
+      "stop_loss_price": 2335,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 1.14,
+      "change_rate_pct": 3.01,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -94,89 +76,71 @@
     {
       "code": "Q530107",
       "name": "삼성 인버스 2X 코스닥150 선물 ETN",
-      "score": 71,
-      "current_price": 1454,
+      "score": 70,
+      "current_price": 1697,
       "entry_price_range": [
-        1447,
-        1461
+        1689,
+        1705
       ],
-      "target_price": 1505,
-      "stop_loss_price": 1418,
+      "target_price": 1756,
+      "stop_loss_price": 1655,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 2.04,
+      "change_rate_pct": 5.73,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "419050",
-      "name": "삼기에너지솔루션즈",
-      "score": 68,
-      "current_price": 2305,
-      "entry_price_range": [
-        2295,
-        2315
-      ],
-      "target_price": 2385,
-      "stop_loss_price": 2245,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 29.93,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "005160",
-      "name": "동국산업",
+      "code": "001210",
+      "name": "금호전기",
       "score": 66,
-      "current_price": 4635,
+      "current_price": 12190,
       "entry_price_range": [
-        4610,
-        4660
+        12130,
+        12250
       ],
-      "target_price": 4795,
-      "stop_loss_price": 4520,
+      "target_price": 12620,
+      "stop_loss_price": 11890,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 20.39,
+      "change_rate_pct": 10.12,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "122350",
-      "name": "삼기",
+      "code": "142280",
+      "name": "녹십자엠에스",
+      "score": 65,
+      "current_price": 3815,
+      "entry_price_range": [
+        3795,
+        3835
+      ],
+      "target_price": 3950,
+      "stop_loss_price": 3720,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 2.83,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "002720",
+      "name": "국제약품",
       "score": 63,
-      "current_price": 1733,
+      "current_price": 4415,
       "entry_price_range": [
-        1724,
-        1742
+        4395,
+        4435
       ],
-      "target_price": 1794,
-      "stop_loss_price": 1690,
+      "target_price": 4570,
+      "stop_loss_price": 4305,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 7.98,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "307750",
-      "name": "국전",
-      "score": 62,
-      "current_price": 2920,
-      "entry_price_range": [
-        2905,
-        2935
-      ],
-      "target_price": 3020,
-      "stop_loss_price": 2845,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 5.42,
+      "change_rate_pct": 13.35,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -184,89 +148,53 @@
     {
       "code": "0197X0",
       "name": "SOL SK하이닉스선물단일종목인버스2X",
-      "score": 60,
-      "current_price": 6515,
+      "score": 62,
+      "current_price": 8600,
       "entry_price_range": [
-        6480,
-        6550
+        8560,
+        8640
       ],
-      "target_price": 6740,
-      "stop_loss_price": 6350,
+      "target_price": 8900,
+      "stop_loss_price": 8380,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 5.0,
+      "change_rate_pct": 20.45,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "452190",
-      "name": "한빛레이저",
+      "code": "009190",
+      "name": "대양금속",
       "score": 60,
-      "current_price": 6290,
+      "current_price": 701,
       "entry_price_range": [
-        6260,
-        6320
+        697,
+        705
       ],
-      "target_price": 6510,
-      "stop_loss_price": 6130,
+      "target_price": 726,
+      "stop_loss_price": 683,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 5.01,
+      "change_rate_pct": 26.31,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "412570",
-      "name": "TIGER 2차전지TOP10레버리지",
+      "code": "042510",
+      "name": "라온시큐어",
       "score": 60,
-      "current_price": 1348,
+      "current_price": 17090,
       "entry_price_range": [
-        1341,
-        1355
+        17000,
+        17180
       ],
-      "target_price": 1395,
-      "stop_loss_price": 1314,
+      "target_price": 17690,
+      "stop_loss_price": 16660,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 3.37,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "018880",
-      "name": "한온시스템",
-      "score": 60,
-      "current_price": 4020,
-      "entry_price_range": [
-        4000,
-        4040
-      ],
-      "target_price": 4160,
-      "stop_loss_price": 3920,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 4.28,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "267320",
-      "name": "나인테크",
-      "score": 60,
-      "current_price": 2780,
-      "entry_price_range": [
-        2765,
-        2795
-      ],
-      "target_price": 2875,
-      "stop_loss_price": 2710,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 2.96,
+      "change_rate_pct": 4.53,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
