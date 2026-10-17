@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T12:30:47.152973",
+  "generated_at": "2026-10-17T14:00:03.230906",
   "candidates": [
     {
       "code": "233740",
@@ -146,19 +146,19 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "005930",
-      "name": "삼성전자",
+      "code": "079650",
+      "name": "서산",
       "score": 60,
-      "current_price": 217000,
+      "current_price": 8030,
       "entry_price_range": [
-        216000,
-        218000
+        7990,
+        8070
       ],
-      "target_price": 224500,
-      "stop_loss_price": 211500,
+      "target_price": 8310,
+      "stop_loss_price": 7830,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 3.33,
+      "change_rate_pct": 22.22,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -218,37 +218,19 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "046970",
-      "name": "우리로",
+      "code": "005930",
+      "name": "삼성전자",
       "score": 60,
-      "current_price": 8930,
+      "current_price": 217000,
       "entry_price_range": [
-        8890,
-        8970
+        216000,
+        218000
       ],
-      "target_price": 9240,
-      "stop_loss_price": 8710,
+      "target_price": 224500,
+      "stop_loss_price": 211500,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 24.9,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "079650",
-      "name": "서산",
-      "score": 60,
-      "current_price": 8030,
-      "entry_price_range": [
-        7990,
-        8070
-      ],
-      "target_price": 8310,
-      "stop_loss_price": 7830,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 22.22,
+      "change_rate_pct": 3.33,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -267,6 +249,24 @@
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
       "change_rate_pct": 6.19,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "046970",
+      "name": "우리로",
+      "score": 60,
+      "current_price": 8930,
+      "entry_price_range": [
+        8890,
+        8970
+      ],
+      "target_price": 9240,
+      "stop_loss_price": 8710,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 24.9,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
