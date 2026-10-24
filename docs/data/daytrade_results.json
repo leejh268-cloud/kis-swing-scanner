@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T12:30:46.983360",
+  "generated_at": "2026-10-24T14:00:02.864542",
   "candidates": [
     {
       "code": "138360",
@@ -92,42 +92,6 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "396500",
-      "name": "TIGER 반도체TOP10",
-      "score": 60,
-      "current_price": 28815,
-      "entry_price_range": [
-        28650,
-        28950
-      ],
-      "target_price": 29800,
-      "stop_loss_price": 28100,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 1.51,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "028050",
-      "name": "삼성E&A",
-      "score": 60,
-      "current_price": 59100,
-      "entry_price_range": [
-        58800,
-        59400
-      ],
-      "target_price": 61200,
-      "stop_loss_price": 57600,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 6.68,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
       "code": "001510",
       "name": "SK증권",
       "score": 60,
@@ -146,19 +110,19 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "100250",
-      "name": "진양홀딩스",
+      "code": "396500",
+      "name": "TIGER 반도체TOP10",
       "score": 60,
-      "current_price": 3160,
+      "current_price": 28815,
       "entry_price_range": [
-        3145,
-        3175
+        28650,
+        28950
       ],
-      "target_price": 3270,
-      "stop_loss_price": 3080,
+      "target_price": 29800,
+      "stop_loss_price": 28100,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 4.64,
+      "change_rate_pct": 1.51,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -182,6 +146,24 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
+      "code": "100250",
+      "name": "진양홀딩스",
+      "score": 60,
+      "current_price": 3160,
+      "entry_price_range": [
+        3145,
+        3175
+      ],
+      "target_price": 3270,
+      "stop_loss_price": 3080,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 4.64,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
       "code": "0195S0",
       "name": "TIGER SK하이닉스단일종목레버리지",
       "score": 60,
@@ -195,6 +177,24 @@
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
       "change_rate_pct": 9.22,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "028050",
+      "name": "삼성E&A",
+      "score": 60,
+      "current_price": 59100,
+      "entry_price_range": [
+        58800,
+        59400
+      ],
+      "target_price": 61200,
+      "stop_loss_price": 57600,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 6.68,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
