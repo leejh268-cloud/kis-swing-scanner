@@ -1,20 +1,74 @@
 {
-  "generated_at": "2026-10-24T14:00:02.864542",
+  "generated_at": "2026-10-31T12:30:47.876140",
   "candidates": [
     {
-      "code": "138360",
-      "name": "앤로보틱스",
-      "score": 74,
-      "current_price": 1946,
+      "code": "252670",
+      "name": "KODEX 200선물인버스2X",
+      "score": 79,
+      "current_price": 97,
       "entry_price_range": [
-        1936,
-        1956
+        97,
+        97
       ],
-      "target_price": 2015,
-      "stop_loss_price": 1897,
+      "target_price": 100,
+      "stop_loss_price": 95,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 19.02,
+      "change_rate_pct": 6.59,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "114800",
+      "name": "KODEX 인버스",
+      "score": 78,
+      "current_price": 1177,
+      "entry_price_range": [
+        1171,
+        1183
+      ],
+      "target_price": 1218,
+      "stop_loss_price": 1148,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 3.79,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "252710",
+      "name": "TIGER 200선물인버스2X",
+      "score": 77,
+      "current_price": 107,
+      "entry_price_range": [
+        106,
+        108
+      ],
+      "target_price": 111,
+      "stop_loss_price": 104,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 8.08,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "420610",
+      "name": "인텔리빅스",
+      "score": 74,
+      "current_price": 29150,
+      "entry_price_range": [
+        29000,
+        29300
+      ],
+      "target_price": 30150,
+      "stop_loss_price": 28400,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 223.89,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -22,53 +76,35 @@
     {
       "code": "251340",
       "name": "KODEX 코스닥150선물인버스",
-      "score": 72,
-      "current_price": 2655,
+      "score": 73,
+      "current_price": 2755,
       "entry_price_range": [
-        2640,
-        2670
+        2740,
+        2770
       ],
-      "target_price": 2750,
-      "stop_loss_price": 2590,
+      "target_price": 2850,
+      "stop_loss_price": 2685,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 2.31,
+      "change_rate_pct": 3.96,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "0193T0",
-      "name": "KODEX SK하이닉스단일종목레버리지",
-      "score": 69,
-      "current_price": 5315,
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
+      "score": 63,
+      "current_price": 7785,
       "entry_price_range": [
-        5290,
-        5340
+        7750,
+        7820
       ],
-      "target_price": 5500,
-      "stop_loss_price": 5180,
+      "target_price": 8060,
+      "stop_loss_price": 7590,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 8.8,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "0015M0",
-      "name": "디티에스",
-      "score": 64,
-      "current_price": 26950,
-      "entry_price_range": [
-        26800,
-        27100
-      ],
-      "target_price": 27900,
-      "stop_loss_price": 26300,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 45.68,
+      "change_rate_pct": 13.9,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -76,125 +112,17 @@
     {
       "code": "Q530107",
       "name": "삼성 인버스 2X 코스닥150 선물 ETN",
-      "score": 62,
-      "current_price": 2045,
-      "entry_price_range": [
-        2035,
-        2055
-      ],
-      "target_price": 2115,
-      "stop_loss_price": 1994,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 4.28,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "001510",
-      "name": "SK증권",
       "score": 60,
-      "current_price": 2080,
+      "current_price": 2185,
       "entry_price_range": [
-        2070,
-        2090
+        2175,
+        2195
       ],
-      "target_price": 2155,
-      "stop_loss_price": 2030,
+      "target_price": 2260,
+      "stop_loss_price": 2130,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 4.63,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "396500",
-      "name": "TIGER 반도체TOP10",
-      "score": 60,
-      "current_price": 28815,
-      "entry_price_range": [
-        28650,
-        28950
-      ],
-      "target_price": 29800,
-      "stop_loss_price": 28100,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 1.51,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "0167A0",
-      "name": "SOL AI반도체TOP2플러스",
-      "score": 60,
-      "current_price": 14170,
-      "entry_price_range": [
-        14100,
-        14240
-      ],
-      "target_price": 14670,
-      "stop_loss_price": 13820,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 1.03,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "100250",
-      "name": "진양홀딩스",
-      "score": 60,
-      "current_price": 3160,
-      "entry_price_range": [
-        3145,
-        3175
-      ],
-      "target_price": 3270,
-      "stop_loss_price": 3080,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 4.64,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "0195S0",
-      "name": "TIGER SK하이닉스단일종목레버리지",
-      "score": 60,
-      "current_price": 4500,
-      "entry_price_range": [
-        4480,
-        4520
-      ],
-      "target_price": 4660,
-      "stop_loss_price": 4390,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 9.22,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "028050",
-      "name": "삼성E&A",
-      "score": 60,
-      "current_price": 59100,
-      "entry_price_range": [
-        58800,
-        59400
-      ],
-      "target_price": 61200,
-      "stop_loss_price": 57600,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 6.68,
+      "change_rate_pct": 7.37,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
