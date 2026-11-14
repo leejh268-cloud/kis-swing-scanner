@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14T12:30:49.232139",
+  "generated_at": "2026-11-14T14:00:03.620082",
   "candidates": [
     {
       "code": "252670",
@@ -110,19 +110,19 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "001210",
-      "name": "금호전기",
+      "code": "002990",
+      "name": "금호건설",
       "score": 60,
-      "current_price": 8250,
+      "current_price": 11210,
       "entry_price_range": [
-        8210,
-        8290
+        11150,
+        11270
       ],
-      "target_price": 8540,
-      "stop_loss_price": 8040,
+      "target_price": 11600,
+      "stop_loss_price": 10930,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 25.0,
+      "change_rate_pct": 29.9,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
@@ -164,6 +164,24 @@
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
+      "code": "001210",
+      "name": "금호전기",
+      "score": 60,
+      "current_price": 8250,
+      "entry_price_range": [
+        8210,
+        8290
+      ],
+      "target_price": 8540,
+      "stop_loss_price": 8040,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 25.0,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
       "code": "128540",
       "name": "에코캡",
       "score": 60,
@@ -177,24 +195,6 @@
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
       "change_rate_pct": 12.14,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "002990",
-      "name": "금호건설",
-      "score": 60,
-      "current_price": 11210,
-      "entry_price_range": [
-        11150,
-        11270
-      ],
-      "target_price": 11600,
-      "stop_loss_price": 10930,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 29.9,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
