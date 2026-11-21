@@ -1,182 +1,146 @@
 {
-  "generated_at": "2026-11-19T14:00:03.216776",
+  "generated_at": "2026-11-21T12:30:47.598332",
   "candidates": [
     {
-      "code": "0193T0",
-      "name": "KODEX SK하이닉스단일종목레버리지",
-      "score": 73,
-      "current_price": 4040,
+      "code": "252670",
+      "name": "KODEX 200선물인버스2X",
+      "score": 79,
+      "current_price": 132,
       "entry_price_range": [
-        4020,
-        4060
+        131,
+        133
       ],
-      "target_price": 4180,
-      "stop_loss_price": 3940,
+      "target_price": 137,
+      "stop_loss_price": 129,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 1.76,
+      "change_rate_pct": 10.92,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "261780",
-      "name": "아리바이오랩",
-      "score": 71,
-      "current_price": 5760,
+      "code": "114800",
+      "name": "KODEX 인버스",
+      "score": 78,
+      "current_price": 1382,
       "entry_price_range": [
-        5730,
-        5790
+        1375,
+        1389
       ],
-      "target_price": 5960,
-      "stop_loss_price": 5620,
+      "target_price": 1430,
+      "stop_loss_price": 1347,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 8.88,
+      "change_rate_pct": 5.58,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "109610",
-      "name": "에스와이",
+      "code": "252710",
+      "name": "TIGER 200선물인버스2X",
+      "score": 76,
+      "current_price": 144,
+      "entry_price_range": [
+        143,
+        145
+      ],
+      "target_price": 149,
+      "stop_loss_price": 140,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 11.63,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "251340",
+      "name": "KODEX 코스닥150선물인버스",
+      "score": 72,
+      "current_price": 3050,
+      "entry_price_range": [
+        3035,
+        3065
+      ],
+      "target_price": 3155,
+      "stop_loss_price": 2975,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 7.21,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "104620",
+      "name": "노랑풍선",
+      "score": 67,
+      "current_price": 4475,
+      "entry_price_range": [
+        4455,
+        4495
+      ],
+      "target_price": 4630,
+      "stop_loss_price": 4365,
+      "expected_return_pct": 3.5,
+      "risk_pct": -2.5,
+      "change_rate_pct": 8.09,
+      "in_volume_rank": true,
+      "in_investor_rank": false,
+      "expected_timing": "당일 장중 (익일 오전까지)"
+    },
+    {
+      "code": "123310",
+      "name": "TIGER 인버스",
       "score": 61,
-      "current_price": 2160,
+      "current_price": 1535,
       "entry_price_range": [
-        2150,
-        2170
+        1527,
+        1543
       ],
-      "target_price": 2235,
-      "stop_loss_price": 2105,
+      "target_price": 1589,
+      "stop_loss_price": 1497,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 16.82,
+      "change_rate_pct": 5.43,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "027050",
-      "name": "코리아나",
+      "code": "Q530107",
+      "name": "삼성 인버스 2X 코스닥150 선물 ETN",
       "score": 60,
-      "current_price": 1439,
+      "current_price": 2570,
       "entry_price_range": [
-        1432,
-        1446
+        2555,
+        2585
       ],
-      "target_price": 1489,
-      "stop_loss_price": 1403,
+      "target_price": 2660,
+      "stop_loss_price": 2505,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 13.49,
+      "change_rate_pct": 13.22,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
     },
     {
-      "code": "0035S0",
-      "name": "빅웨이브로보틱스",
+      "code": "0197X0",
+      "name": "SOL SK하이닉스선물단일종목인버스2X",
       "score": 60,
-      "current_price": 17510,
+      "current_price": 11050,
       "entry_price_range": [
-        17420,
-        17600
+        10990,
+        11110
       ],
-      "target_price": 18120,
-      "stop_loss_price": 17070,
+      "target_price": 11440,
+      "stop_loss_price": 10770,
       "expected_return_pct": 3.5,
       "risk_pct": -2.5,
-      "change_rate_pct": 2.46,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "Q520099",
-      "name": "미래에셋 인버스 2X 반도체 ETN",
-      "score": 60,
-      "current_price": 5525,
-      "entry_price_range": [
-        5500,
-        5550
-      ],
-      "target_price": 5720,
-      "stop_loss_price": 5390,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 2.22,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "089590",
-      "name": "제주항공",
-      "score": 60,
-      "current_price": 8210,
-      "entry_price_range": [
-        8170,
-        8250
-      ],
-      "target_price": 8500,
-      "stop_loss_price": 8000,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 9.47,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "0195S0",
-      "name": "TIGER SK하이닉스단일종목레버리지",
-      "score": 60,
-      "current_price": 3435,
-      "entry_price_range": [
-        3420,
-        3450
-      ],
-      "target_price": 3555,
-      "stop_loss_price": 3350,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 1.78,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "010170",
-      "name": "대한광통신",
-      "score": 60,
-      "current_price": 13950,
-      "entry_price_range": [
-        13880,
-        14020
-      ],
-      "target_price": 14440,
-      "stop_loss_price": 13600,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 5.68,
-      "in_volume_rank": true,
-      "in_investor_rank": false,
-      "expected_timing": "당일 장중 (익일 오전까지)"
-    },
-    {
-      "code": "037270",
-      "name": "YG PLUS",
-      "score": 60,
-      "current_price": 3420,
-      "entry_price_range": [
-        3405,
-        3435
-      ],
-      "target_price": 3540,
-      "stop_loss_price": 3335,
-      "expected_return_pct": 3.5,
-      "risk_pct": -2.5,
-      "change_rate_pct": 12.5,
+      "change_rate_pct": 12.47,
       "in_volume_rank": true,
       "in_investor_rank": false,
       "expected_timing": "당일 장중 (익일 오전까지)"
