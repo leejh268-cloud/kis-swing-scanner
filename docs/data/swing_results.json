@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-25T15:44:36.994416",
-  "scanned_count": 59,
-  "universe_count": 59,
+  "generated_at": "2026-11-28T15:44:34.412468",
+  "scanned_count": 60,
+  "universe_count": 60,
   "signal_count": 0,
   "market_regime": {
     "KOSPI": {
       "bullish": false,
-      "close": 4697.51,
-      "ma50": 5932.77
+      "close": 4915.68,
+      "ma50": 5853.42
     },
     "KOSDAQ": {
       "bullish": false,
-      "close": 650.64,
-      "ma50": 766.02
+      "close": 708.99,
+      "ma50": 760.77
     }
   },
   "results": [],
